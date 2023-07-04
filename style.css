@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+   background-image: linear-gradient(to left top, #CA3F3F,
+rgba(202, 63, 63, 0.685),
+rgba(202, 63, 63, 0))
+}
+span{
+    color: yellow;
+}
+
+h1::before{
+  display:block; 
+  content: ' ';  
+  background:url("https://w7.pngwing.com/pngs/697/230/png-transparent-monarch-butterfly-blue-butterfly-blue-white-brush-footed-butterfly.png");
+  background-size:contain;  
+  
+  height: 50px;
+  width: 50px;
